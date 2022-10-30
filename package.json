@@ -7,6 +7,8 @@
     "prebuild": "npm run clean",
     "build": "rollup --config rollup.config.ts --configPlugin typescript",
     "clean": "rimraf dist",
+    "predev": "npm run clean",
+    "dev": "rollup --config rollup.config.ts --configPlugin typescript --watch",
     "lint": "eslint '**/*.{js,ts}'",
     "test": "jest --passWithNoTests"
   },
