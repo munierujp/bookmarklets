@@ -6,9 +6,9 @@
 
 ブックマークレット
 
-- [リンクをHTML形式でコピー](https://github.com/munierujp/bookmarklets/blob/main/dist/copy-as-html-link.min.js)
-- [リンクをMarkdown形式でコピー](https://github.com/munierujp/bookmarklets/blob/main/dist/copy-as-markdown-link.min.js)
-- [タイトルとURLをコピー](https://github.com/munierujp/bookmarklets/blob/main/dist/copy-title-and-url.min.js)
-- [タイトルをコピー](https://github.com/munierujp/bookmarklets/blob/main/dist/copy-title.min.js)
-- [URLをコピー](https://github.com/munierujp/bookmarklets/blob/main/dist/copy-url.min.js)
-- [ツイートダイアログを開く](https://github.com/munierujp/bookmarklets/blob/main/dist/open-tweet-dialog.min.js)
+- [リンクをHTML形式でコピー](./dist/copy-as-html-link.min.js)
+- [リンクをMarkdown形式でコピー](./dist/copy-as-markdown-link.min.js)
+- [タイトルとURLをコピー](./dist/copy-title-and-url.min.js)
+- [タイトルをコピー](./dist/copy-title.min.js)
+- [URLをコピー](./dist/copy-url.min.js)
+- [ツイートダイアログを開く](./dist/open-tweet-dialog.min.js)
