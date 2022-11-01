@@ -1,5 +1,5 @@
 const params = new URLSearchParams({
-  text: `${document.title} ${location.href}`
+  text: `${document.title}\n${location.href}`
 })
 const url = `https://twitter.com/intent/tweet?${params.toString()}`
 const width = 550
