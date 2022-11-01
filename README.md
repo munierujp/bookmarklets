@@ -4,7 +4,7 @@
 
 # bookmarklets
 
-My bookmarklets
+ブックマークレット
 
 - [Copy as HTML link](https://github.com/munierujp/bookmarklets/blob/main/dist/copy-as-html-link.min.js)
 - [Copy as Markdown link](https://github.com/munierujp/bookmarklets/blob/main/dist/copy-as-markdown-link.min.js)
