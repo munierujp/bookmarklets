@@ -6,9 +6,9 @@
 
 ブックマークレット
 
-- [Copy as HTML link](https://github.com/munierujp/bookmarklets/blob/main/dist/copy-as-html-link.min.js)
-- [Copy as Markdown link](https://github.com/munierujp/bookmarklets/blob/main/dist/copy-as-markdown-link.min.js)
-- [Copy title and URL](https://github.com/munierujp/bookmarklets/blob/main/dist/copy-title-and-url.min.js)
-- [Copy title](https://github.com/munierujp/bookmarklets/blob/main/dist/copy-title.min.js)
-- [Copy URL](https://github.com/munierujp/bookmarklets/blob/main/dist/copy-url.min.js)
-- [Open tweet dialog](https://github.com/munierujp/bookmarklets/blob/main/dist/open-tweet-dialog.min.js)
+- [リンクをHTML形式でコピー](https://github.com/munierujp/bookmarklets/blob/main/dist/copy-as-html-link.min.js)
+- [リンクをMarkdown形式でコピー](https://github.com/munierujp/bookmarklets/blob/main/dist/copy-as-markdown-link.min.js)
+- [タイトルとURLをコピー](https://github.com/munierujp/bookmarklets/blob/main/dist/copy-title-and-url.min.js)
+- [タイトルをコピー](https://github.com/munierujp/bookmarklets/blob/main/dist/copy-title.min.js)
+- [URLをコピー](https://github.com/munierujp/bookmarklets/blob/main/dist/copy-url.min.js)
+- [ツイートダイアログを開く](https://github.com/munierujp/bookmarklets/blob/main/dist/open-tweet-dialog.min.js)
