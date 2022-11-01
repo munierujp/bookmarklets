@@ -1,3 +1,4 @@
+// TODO: Replace with Clipboard API
 /**
  * Copy text to clipboard.
  * @param text - text to copy
