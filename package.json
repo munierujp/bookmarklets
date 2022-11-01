@@ -21,7 +21,7 @@
     "@rollup/plugin-typescript": "9.0.2",
     "@tsconfig/node16": "1.0.3",
     "@types/glob": "8.0.0",
-    "@types/node": "16.11.66",
+    "@types/node": "16.11.68",
     "eslint": "8.26.0",
     "eslint-plugin-jest": "27.1.3",
     "glob": "8.0.3",
