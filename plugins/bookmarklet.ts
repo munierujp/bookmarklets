@@ -5,7 +5,7 @@ const bookmarklet = (): Plugin => {
     name: 'bookmarklet',
     renderChunk: (code) => {
       return {
-        code: `javascript: ${code}`
+        code: `javascript:${code}`
       }
     }
   }
