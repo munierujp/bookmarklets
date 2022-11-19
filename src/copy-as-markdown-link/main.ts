@@ -1,3 +1,6 @@
-import { copy } from '../util'
+import {
+  copy,
+  handleError
+} from '../util'
 
-copy(`[${document.title}](${location.href})`)
+copy(`[${document.title}](${location.href})`).catch(handleError)
