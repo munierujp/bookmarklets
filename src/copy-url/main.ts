@@ -1,3 +1,6 @@
-import { copy } from '../util'
+import {
+  copy,
+  handleError
+} from '../util'
 
-copy(location.href)
+copy(location.href).catch(handleError)
