@@ -27,7 +27,7 @@
     "glob": "8.0.3",
     "jest": "29.3.1",
     "jest-environment-jsdom": "29.3.1",
-    "rimraf": "3.0.2",
+    "rimraf": "4.1.2",
     "rollup": "3.13.0",
     "rollup-plugin-bookmarklet": "1.0.3",
     "ts-jest": "29.0.5",
