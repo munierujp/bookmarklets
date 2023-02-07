@@ -16,7 +16,7 @@
     "node": "16.11.1"
   },
   "devDependencies": {
-    "@munierujp/eslint-config-typescript": "14.0.1",
+    "@munierujp/eslint-config-typescript": "15.0.0",
     "@rollup/plugin-terser": "0.4.0",
     "@rollup/plugin-typescript": "11.0.0",
     "@tsconfig/node16": "1.0.3",
