@@ -19,7 +19,7 @@
     "@munierujp/eslint-config-typescript": "27.0.0",
     "@rollup/plugin-terser": "0.4.3",
     "@rollup/plugin-typescript": "11.1.2",
-    "@tsconfig/node16": "16.1.0",
+    "@tsconfig/node16": "16.1.1",
     "@types/glob": "8.1.0",
     "@types/node": "18.13.0",
     "eslint": "8.47.0",
