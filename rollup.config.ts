@@ -1,3 +1,5 @@
+// https://qiita.com/munieru_jp/items/036f047441466642740a
+
 import terser from '@rollup/plugin-terser'
 import typescript from '@rollup/plugin-typescript'
 import glob from 'glob'
