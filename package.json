@@ -13,7 +13,7 @@
     "test": "jest --passWithNoTests"
   },
   "engines": {
-    "node": "18.17.1"
+    "node": "18.18.2"
   },
   "devDependencies": {
     "@munierujp/eslint-config-typescript": "29.0.0",
@@ -21,7 +21,7 @@
     "@rollup/plugin-typescript": "11.1.5",
     "@tsconfig/node18": "18.2.2",
     "@types/glob": "8.1.0",
-    "@types/node": "18.17.17",
+    "@types/node": "18.18.13",
     "eslint": "8.54.0",
     "eslint-plugin-jest": "27.4.2",
     "glob": "8.1.0",
