@@ -20,7 +20,7 @@
     "@rollup/plugin-terser": "0.4.4",
     "@rollup/plugin-typescript": "11.1.6",
     "@tsconfig/node20": "20.1.4",
-    "@types/node": "20.12.9",
+    "@types/node": "20.12.10",
     "eslint": "8.57.0",
     "eslint-plugin-jest": "28.5.0",
     "glob": "10.3.12",
