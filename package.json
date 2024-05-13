@@ -2,6 +2,7 @@
   "name": "bookmarklets",
   "version": "1.0.0",
   "description": "My bookmarklets",
+  "type": "module",
   "private": true,
   "scripts": {
     "prebuild": "npm run clean",

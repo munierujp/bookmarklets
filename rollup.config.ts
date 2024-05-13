@@ -14,9 +14,12 @@ const configs: RollupOptions[] = entryPaths.map(entryPath => ({
     format: 'iife'
   },
   plugins: [
-    typescript(),
-    terser(),
-    bookmarklet()
+    // NOTE: workaround until this PR is merged: https://github.com/rollup/plugins/pull/1578
+    (typescript as unknown as typeof typescript['default'])(),
+    // NOTE: workaround until this PR is merged: https://github.com/rollup/plugins/pull/1578
+    (terser as unknown as typeof terser['default'])(),
+    // NOTE: workaround until this PR is merged: https://github.com/rollup/plugins/pull/1578
+    (bookmarklet as unknown as typeof bookmarklet['default'])()
   ]
 }))
 
