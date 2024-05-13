@@ -1,10 +1,15 @@
 // https://qiita.com/munieru_jp/items/036f047441466642740a
 
-import terser from '@rollup/plugin-terser'
-import typescript from '@rollup/plugin-typescript'
+import terserModule from '@rollup/plugin-terser'
+import typescriptModule from '@rollup/plugin-typescript'
 import { globSync } from 'glob'
 import type { RollupOptions } from 'rollup'
-import bookmarklet from 'rollup-plugin-bookmarklet'
+import bookmarkletModule from 'rollup-plugin-bookmarklet'
+
+// NOTE: workaround until this PR is merged: https://github.com/rollup/plugins/pull/1578
+const terser = (terserModule as unknown as typeof terserModule['default'])
+const typescript = (typescriptModule as unknown as typeof typescriptModule['default'])
+const bookmarklet = (bookmarkletModule as unknown as typeof bookmarkletModule['default'])
 
 const entryPaths = globSync('src/**/main.ts')
 const configs: RollupOptions[] = entryPaths.map(entryPath => ({
@@ -14,12 +19,9 @@ const configs: RollupOptions[] = entryPaths.map(entryPath => ({
     format: 'iife'
   },
   plugins: [
-    // NOTE: workaround until this PR is merged: https://github.com/rollup/plugins/pull/1578
-    (typescript as unknown as typeof typescript['default'])(),
-    // NOTE: workaround until this PR is merged: https://github.com/rollup/plugins/pull/1578
-    (terser as unknown as typeof terser['default'])(),
-    // NOTE: workaround until this PR is merged: https://github.com/rollup/plugins/pull/1578
-    (bookmarklet as unknown as typeof bookmarklet['default'])()
+    typescript(),
+    terser(),
+    bookmarklet()
   ]
 }))
 
