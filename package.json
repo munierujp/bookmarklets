@@ -21,7 +21,7 @@
     "@rollup/plugin-terser": "0.4.4",
     "@rollup/plugin-typescript": "12.1.2",
     "@tsconfig/node20": "20.1.4",
-    "@types/node": "20.12.14",
+    "@types/node": "22.13.5",
     "eslint": "8.57.1",
     "glob": "11.0.1",
     "rimraf": "6.0.1",
