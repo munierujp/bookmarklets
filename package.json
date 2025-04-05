@@ -28,6 +28,6 @@
     "rollup": "4.39.0",
     "rollup-plugin-bookmarklet": "5.0.12",
     "tsx": "4.19.3",
-    "typescript": "5.8.2"
+    "typescript": "5.8.3"
   }
 }
