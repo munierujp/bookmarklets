@@ -27,7 +27,7 @@
     "rimraf": "6.1.2",
     "rollup": "4.53.5",
     "rollup-plugin-bookmarklet": "5.0.12",
-    "tsx": "4.20.6",
+    "tsx": "4.21.0",
     "typescript": "5.9.3"
   }
 }
