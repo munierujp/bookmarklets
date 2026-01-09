@@ -21,7 +21,7 @@
     "@eslint-community/eslint-plugin-eslint-comments": "4.5.0",
     "@rollup/plugin-terser": "0.4.4",
     "@rollup/plugin-typescript": "12.3.0",
-    "@tsconfig/node20": "20.1.5",
+    "@tsconfig/node22": "22.0.0",
     "@types/node": "20.12.14",
     "eslint": "9.39.2",
     "glob": "11.0.1",
