@@ -18,6 +18,10 @@
       // https://github.com/tsconfig/bases/blob/main/bases/node24.json
       "ESNext.Promise",
       "dom"
-    ]
+    ],
+    // https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping#node-24
+    "module": "nodenext",
+    // https://github.com/tsconfig/bases/blob/main/bases/node24.json
+    "target": "es2024"
   }
 }
