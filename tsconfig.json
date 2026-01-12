@@ -2,13 +2,21 @@
   "extends": [    
     // https://github.com/tsconfig/bases/blob/main/bases/strictest.json
     "@tsconfig/bases/strictest",
-    // https://github.com/tsconfig/bases/blob/main/bases/node20.json
-    "@tsconfig/bases/node20"
+    // https://github.com/tsconfig/bases/blob/main/bases/node24.json
+    "@tsconfig/bases/node24"
   ],
   "compilerOptions": {
     "lib": [
-      // https://www.npmjs.com/package/@tsconfig/node20
-      "es2023",
+      // https://github.com/tsconfig/bases/blob/main/bases/node24.json
+      "es2024",
+      // https://github.com/tsconfig/bases/blob/main/bases/node24.json
+      "ESNext.Array",
+      // https://github.com/tsconfig/bases/blob/main/bases/node24.json
+      "ESNext.Collection",
+      // https://github.com/tsconfig/bases/blob/main/bases/node24.json
+      "ESNext.Iterator",
+      // https://github.com/tsconfig/bases/blob/main/bases/node24.json
+      "ESNext.Promise",
       "dom"
     ]
   }
