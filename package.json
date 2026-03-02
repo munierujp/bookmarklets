@@ -18,7 +18,7 @@
     "node": "24.10.0"
   },
   "devDependencies": {
-    "@eslint-community/eslint-plugin-eslint-comments": "4.6.0",
+    "@eslint-community/eslint-plugin-eslint-comments": "4.7.1",
     "@rollup/plugin-terser": "0.4.4",
     "@rollup/plugin-typescript": "12.3.0",
     "@tsconfig/bases": "1.0.17",
